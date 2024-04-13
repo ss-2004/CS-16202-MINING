@@ -3,6 +3,7 @@
 #     “which”, and “on”.
 
 stpwrd_lst = ["the", "and", "if", "which", "on"]
+
 with open("/content/drive/MyDrive/Colab/24-01-17/data.txt", "r") as file:
     txt = file.read()
 
