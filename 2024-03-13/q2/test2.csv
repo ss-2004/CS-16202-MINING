@@ -1,0 +1,4 @@
+outlook,temperature,humidity,windy,play
+rainy,71,91,True,no
+overcast,72,90,True,yes
+sunny,69,70,False,yes
