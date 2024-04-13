@@ -1,0 +1,19 @@
+Steps:
+
+1.	Open Weka-3-8-6
+
+2.	Select Explorer from GUI chooser
+
+3.	Select Pre-process tab
+
+4.	Select Open file
+
+5.	Select File from the directory
+
+6.	Load file into Weka Explorer
+
+7.	Choose Filter from Filter > Choose > Weka > Filters > Unsupervised > Attribute > Add
+
+8.	Fill details about the filter such as name, type, labels
+
+9.	Apply filter

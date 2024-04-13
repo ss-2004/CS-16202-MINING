@@ -1,0 +1,24 @@
+@relation 'weather-weka.filters.unsupervised.attribute.Add-TNOM-NClimate-Ltropical,dry,mild,continental,polar-Clast-W1.0-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6'
+
+@attribute outlook {sunny,overcast,rainy}
+@attribute temperature {'\'(-inf-0.1]\'','\'(0.1-0.2]\'','\'(0.2-0.3]\'','\'(0.3-0.4]\'','\'(0.4-0.5]\'','\'(0.5-0.6]\'','\'(0.6-0.7]\'','\'(0.7-0.8]\'','\'(0.8-0.9]\'','\'(0.9-inf)\''}
+@attribute humidity {'\'(-inf-0.1]\'','\'(0.1-0.2]\'','\'(0.2-0.3]\'','\'(0.3-0.4]\'','\'(0.4-0.5]\'','\'(0.5-0.6]\'','\'(0.6-0.7]\'','\'(0.7-0.8]\'','\'(0.8-0.9]\'','\'(0.9-inf)\''}
+@attribute windy {TRUE,FALSE}
+@attribute play {yes,no}
+@attribute Climate {tropical,dry,mild,continental,polar}
+
+@data
+sunny,'\'(0.9-inf)\'','\'(0.6-0.7]\'',FALSE,no,dry
+sunny,'\'(0.7-0.8]\'','\'(0.8-0.9]\'',TRUE,no,mild
+overcast,'\'(0.9-inf)\'','\'(0.6-0.7]\'',FALSE,yes,dry
+rainy,'\'(0.2-0.3]\'','\'(0.9-inf)\'',FALSE,yes,?
+rainy,'\'(0.1-0.2]\'','\'(0.4-0.5]\'',FALSE,yes,mild
+rainy,'\'(-inf-0.1]\'','\'(0.1-0.2]\'',TRUE,no,?
+overcast,'\'(-inf-0.1]\'','\'(-inf-0.1]\'',TRUE,yes,continental
+sunny,'\'(0.3-0.4]\'','\'(0.9-inf)\'',FALSE,no,?
+sunny,'\'(0.2-0.3]\'','\'(0.1-0.2]\'',FALSE,yes,tropical
+rainy,'\'(0.5-0.6]\'','\'(0.4-0.5]\'',FALSE,yes,polar
+sunny,'\'(0.5-0.6]\'','\'(0.1-0.2]\'',TRUE,yes,?
+overcast,'\'(0.3-0.4]\'','\'(0.8-0.9]\'',TRUE,yes,?
+overcast,'\'(0.8-0.9]\'','\'(0.3-0.4]\'',FALSE,yes,polar
+rainy,'\'(0.3-0.4]\'','\'(0.8-0.9]\'',TRUE,no,?
