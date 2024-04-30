@@ -1,3 +1,6 @@
+# Compute the probability of the class labels (buys_computer=”yes” or buys_computer= ”no”) for each
+# nominal value in an attribute.
+
 def compute_class_label_probabilities(df, attribute):
     
     class_label_probs = {}
