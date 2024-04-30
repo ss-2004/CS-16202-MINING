@@ -1,3 +1,6 @@
+# Design module which predicts the class label of unknown and unseen data using tree
+# traversal or any other techniques.
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
