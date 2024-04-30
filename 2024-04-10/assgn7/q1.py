@@ -1,3 +1,6 @@
+# a. Prepare the dictionary which counts the number of “yes” and “no” class labels for each nominal value in
+# an attribute.
+
 import pandas as pd
 def count_class_labels(df, attribute):
     
