@@ -1,3 +1,16 @@
+# Note: Feature Selection- Select k useful features out of n futures in a dataset, where k<n.
+# Objective 1:
+# Load page_block.csv numeric (Beginner's Guide Page-block Classification (kaggle.com)) dataset (make
+# appropriate preprocessing if required). Use Fisher’s Score (f) ranking method for assigning an
+# appropriate rank to each feature and select the top k ranked features.
+
+# Where μ1, μ2, σ1, σ2 are means and standard deviations for negative and positive class respectively.
+# Write the equivalent function in python for the following:
+# 1. Compute the mean of attribute values against both class labels.
+# 2. Compute the standard deviation of attribute values against both class labels.
+# 3. ComputeFisher’s score (f) the for each attribute.
+# 4. Assigned rank for each attribute (High f value has a high ranking).
+
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
