@@ -1,3 +1,6 @@
+# Using Bayes’ theorem compute the probability of instance X = (age = youth, income = medium, student
+# = yes, credit_rating = fair) against class label (buys_computer=”yes” and buys_computer=”no”).
+
 def compute_bayes_probability(df, instance_values, class_label):
     
     total_samples = len(df)
