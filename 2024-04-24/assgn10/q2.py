@@ -1,3 +1,7 @@
+# Implementation of classification using ID3, J48 algorithm in python on ‘iris.arff’
+# (storm.cis.fordham.edu/~gweiss/data-mining/weka-data/iris.arff) dataset & verify the result with
+# Objective 1.
+
 import pandas as pd
 from weka.classifiers import Classifier
 from weka.core.converters import Loader
